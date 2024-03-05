@@ -20,7 +20,7 @@ public class inventoryServiceImp implements inventoryService{
 	    }
 	 
 	    // Read operation
-	    @Override public List<inventory> fetchDepartmentList()
+	    @Override public List<inventory> fetchItemList()
 	    {
 	        return (List<inventory>)
 	            inventoryRepository.findAll();

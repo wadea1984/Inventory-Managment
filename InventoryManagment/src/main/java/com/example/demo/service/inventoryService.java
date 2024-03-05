@@ -8,7 +8,7 @@ public interface inventoryService {
     inventory saveItem(inventory Item);
  
     // Read operation
-    List<inventory> fetchDepartmentList();
+    List<inventory> fetchItemList();
  
     // Update operation
     inventory updateItem(inventory Inventory,
