@@ -22,5 +22,36 @@ public class inventory {
     private String ItemName;
     private Long quanity;
     private double price;
+	public Long getItemId() {
+		return ItemId;
+	}
+	public void setItemId(Long itemId) {
+		ItemId = itemId;
+	}
+	public String getItemName() {
+		return ItemName;
+	}
+	public void setItemName(String itemName) {
+		ItemName = itemName;
+	}
+	public Long getQuanity() {
+		return quanity;
+	}
+	public void setQuanity(Long quanity) {
+		this.quanity = quanity;
+	}
+	public double getPrice() {
+		return price;
+	}
+	public void setPrice(double price) {
+		this.price = price;
+	}
+	@Override
+	public String toString() {
+		return "inventory [ItemId=" + ItemId + ", ItemName=" + ItemName + ", quanity=" + quanity + ", price=" + price
+				+ "]";
+	}
+    
+    
 
 }
